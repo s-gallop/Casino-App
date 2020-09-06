@@ -2,9 +2,11 @@
 
 ## CPSC 210 personal project
 
+*(The original project is owned by cpsc210-2019w-t2 (UBC Computer Science) and is private, but was written by me. To make this project available, I had to upload the completed files, so my original commits can't be viewed here. However, I would be happy to log into my UBC Github account, and show my original commits in an interview.)*
+
 My personal project is going to be a casino game app, where the user can play and make bets on certain casino games,
 add to their balance or cash out. Of course, when the user looses a game, they will loose whatever they bet on the
-game, and if they're out of money they will not be able to continue playing unless they add more balance. 
+game, and if they're out of money they will not be able to continue playing unless they add more balance.
 
 As a video game, my program would be targeted towards anyone looking for a fun casino experience, without needing to go
 to an actual casino.
@@ -31,15 +33,15 @@ risking any money.
 - Cancel will bring you back to the main page
 - After finishing a game, press ok to return to the mane page
 - You win slots if the same three images appear in a row or a diagonal
-- You win blackJack if you dont go over 21, and the dealers score is strictly less than yours, or the dealer goes over 21; the dealer wins ties
+- You win Blackjack if you don't go over 21, and the dealers score is strictly less than yours, or the dealer goes over 21; the dealer wins ties
 
 **Phase 4: Task 2**
-- Test and design a class that is robust 
+- Test and design a class that is robust
     - BlackJack.isLost()
     - BlackJackTest.testIsLostFalse()
     - BlackJackTest.testIsLostEqual()
     - BlackJackTest.testIsLostTrue()
-    
+
 **Phase 4: Task 3**
 - Cohesion
     - CasinoApp should be three classes: CasinoApp, AccountManager and LogManager
